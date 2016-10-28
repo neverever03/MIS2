@@ -7,7 +7,7 @@ RBAC权限管理
 2.用户test1对订单(order)页面中的操作权限(sys_button)
 ![image](https://github.com/neverever03/MIS2/blob/master/RBAC2.PNG)
 
-3.伪代码：
+3.伪代码
 ![image](https://github.com/neverever03/MIS2/blob/master/RBAC3.PNG)
 
           
