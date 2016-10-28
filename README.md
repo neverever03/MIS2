@@ -8,6 +8,6 @@ RBAC权限管理
 ![image](https://github.com/neverever03/MIS2/blob/master/RBAC2.PNG)
 
 3.伪代码：
-   ![image](https://github.com/neverever03/MIS2/blob/master/RBAC3.PNG)
+![image](https://github.com/neverever03/MIS2/blob/master/RBAC3.PNG)
 
           
