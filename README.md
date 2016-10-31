@@ -12,7 +12,8 @@ WHERE ((cf_privilege.PrivilegeMaster="CF_User"
 OR  (cf_privilege.PrivilegeMaster="CF_Role"  
 			and cf_privilege.PrivilegeMasterKey IN(select RoleID  from cf_userrole,cf_user where cf_userrole.UserID=cf_user.UserID and cf_user.LoginName="test1")))
  and cf_privilege.PrivilegeOperation="Permit" and cf_privilege.PrivilegeAccess="Sys_Menu"
-![image](https://github.com/neverever03/MIS2/blob/master/RBAC1.PNG)
+ <BR>
+![image](https://github.com/neverever03/MIS2/blob/master/RBAC1.1.PNG)
 
 2.用户test1对订单(order)页面中的操作权限(sys_button)
 SELECT BtnID,BtnName
@@ -24,7 +25,8 @@ WHERE ((cf_privilege.PrivilegeMaster="CF_User"
 OR  (cf_privilege.PrivilegeMaster="CF_Role"  
 			and cf_privilege.PrivilegeMasterKey IN(select RoleID  from cf_userrole,cf_user where cf_userrole.UserID=cf_user.UserID and cf_user.LoginName="test1")))
 and sys_menu.MenuName="订单" and cf_privilege.PrivilegeOperation="Permit" and cf_privilege.PrivilegeAccess="Sys_Button" 
-![image](https://github.com/neverever03/MIS2/blob/master/RBAC2.PNG)
+ <BR>
+![image](https://github.com/neverever03/MIS2/blob/master/RBAC2.2.PNG)
 
 
 
